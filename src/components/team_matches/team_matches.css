@@ -1,0 +1,75 @@
+.RCB {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.KKR {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
+
+.KXP {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.CSK {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.RR {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.MI {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+
+.SH {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+.DC {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+
+.loader {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.team-matches-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-matches {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.6rem, 1.7vw, 1rem);
+  width: min(90%, 600px);
+  margin-top: 30px;
+}
+@media screen and (min-width: 888px) {
+  .team-matches {
+    width: min(90%, 1050px);
+  }
+}
+
+.team-matches-page > img {
+  width: min(100%, 1200px);
+}
+
+.team-matches h1 {
+  font-size: clamp(16px, 3vw, 22px);
+  margin: 15px 0 0 5px;
+  color: #fff;
+  text-shadow: 0 0 20px #000;
+}
+
+.team-recent-matches {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: clamp(1.2rem, 3vw, 2rem);
+}
